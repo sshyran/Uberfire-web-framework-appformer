@@ -26,6 +26,14 @@
     "@types/istanbul-lib-coverage" "^1.1.0"
     "@types/yargs" "^12.0.9"
 
+"@kie/lock-treatment-tool@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@kie/lock-treatment-tool/-/lock-treatment-tool-0.0.2.tgz#9f8a5b6a4a874ff263b14745c408e63e49d440c3"
+  integrity sha512-ZPsAtd7VfFvqzgurjjmxanG2FtdxMA/A1MGaYTHMPxrfKjZZ8/Ssiwbfpnhr8bgiR5iTiXc6u5fR42A5t5Nhow==
+  dependencies:
+    line-reader "^0.3.0"
+    yargs "^14.2.0"
+
 "@lerna/add@^3.3.2":
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.13.1.tgz#2cd7838857edb3b43ed73e3c21f69a20beb9b702"
@@ -1171,9 +1179,9 @@ async-each@^1.0.1:
   integrity sha1-GdOGodntxufByF04iu28xW0zYC0=
 
 async-limiter@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
-  integrity sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
+  integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
 async@^2.1.4, async@^2.5.0:
   version "2.6.2"
@@ -5018,14 +5026,6 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lock-treatment-tool@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/lock-treatment-tool/-/lock-treatment-tool-0.4.1.tgz#cb164ced311f3dff23863df476053904b287238b"
-  integrity sha512-Ge5Eds0tSxG9Lt1xmqSZm/tBPGCIx/CY72ncBp7Dxkp1HQWy2mLoMJ5NlVJ4T9A0cQ35XkLZqZBFNF8NV6FO4A==
-  dependencies:
-    line-reader "^0.3.0"
-    yargs "^14.2.0"
-
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -8017,9 +8017,9 @@ write-pkg@^3.1.0:
     write-json-file "^2.2.0"
 
 ws@^5.2.0:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-5.2.2.tgz#dffef14866b8e8dc9133582514d1befaf96e980f"
-  integrity sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-5.2.3.tgz#05541053414921bc29c63bee14b8b0dd50b07b3d"
+  integrity sha512-jZArVERrMsKUatIdnLzqvcfydI85dvd/Fp1u/VOpfdDWQ4c9qWXe+VIeAbQ5FrDwciAkr+lzofXLz3Kuf26AOA==
   dependencies:
     async-limiter "~1.0.0"
 
